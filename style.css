@@ -9,14 +9,14 @@
 header {
     display: flex;
     justify-content: space-between;
+    margin-left: 10px;
     margin-top: 10px;
-    width: 1909.58px;
     height: 101px;
     display: flex;
     border: 1px solid #E8DDDD;
     box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
 }
-.logo{
+.logo {
     display: flex;
     align-items: center;
     text-align: center;
@@ -46,7 +46,7 @@ a {
     text-decoration: none;
     color: black;
 }
-ul{
+ul {
     display: flex;
     gap: 100px;
     list-style: none;
@@ -61,12 +61,12 @@ li {
     line-height: 60px;
 }
 .image1 {
-    width: 1837.96px;
     height: 535.85px;
     margin-top: 19px;
     margin-left: 37px;
+    margin-right: 15px;
 }
-.img-1{
+.img-1 {
     width: 100%;
     z-index: 1;
 }
@@ -79,11 +79,15 @@ main {
 .main-1 {
     display: flex;
 }
-
-.square{
+.main-12 {
+    display: block;
+    margin-top: -150px;
+    margin-left: 150px;
+}
+.square {
     text-align: center;
-    width: 500px;
-    height: 500px;
+    width: 550px;
+    height: 550px;
     margin-top:-87px;
     margin-left: 12%;
     background: #FFFFFF;
@@ -104,8 +108,8 @@ main {
     z-index: 2;
     transform: rotate(-40deg);
     text-align: center;
-    padding-top: 120px;
-
+    padding-top: 250px;
+    margin-left: -20px;
 }
 .main-txt {
     display: flex;
@@ -187,10 +191,10 @@ main {
     position: relative;
 }
 .square1{
-    margin-top: -380px;
-    margin-left: 660px;
-    width: 950px;
-    height: 950px;
+    margin-top: -310px;
+    margin-left: 610px;
+    width: 900px;
+    height: 900px;
     background: #E2ECF3;
     border-radius: 8px;
     transform: rotate(-0.14deg);
@@ -199,14 +203,18 @@ main {
 }
 
 .image3{
-    margin-left: 340px;
-    margin-top: -40px;
-    width: 603.46px;
-    height: 863.05px;
+    margin-left: 260px;
+    margin-top: 55px;
+    width: 600px;
+    height: 850px;
     background: url(.jpg), #C4C4C4;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0px 0px 53px 0px;
     position: relative;
+}
+.main-img2 {
+    width: 100%;
+    height: 100%;
 }
 .square2{
     margin: 120px;
@@ -251,12 +259,12 @@ main {
 .title1 {
     width: 821.43px;
     height: 215.87px;
-    margin-left: -240px;
+    margin-left: -290px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
-    font-size: 38px;
-    line-height: 57px;
+    font-size: 35px;
+    line-height: 55px;
     display: flex;
     align-items: center;
     letter-spacing: 0.02em;
@@ -306,10 +314,11 @@ main {
 .main-4{
     display: flex;   
     margin-top: 272px;
-    margin-left: 274px;
+    margin-left: 200px;
 }
 .block-text {
-    display: column;
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
     margin-top: 351px;
     width: 520px;
@@ -353,6 +362,7 @@ main {
     display: flex;
     background: url(.jpg), #C4C4C4;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 53px 0px;
     width: 1000px;
     height: 530px;
     position: relative;
@@ -422,15 +432,16 @@ main {
 }
 .main-6 {
     margin-top: 270px;
-    margin-left: 152px;
+    margin-left: 100px;
 }
 .block-4 {
     display: flex;
-    gap: 79px;
+    justify-content: space-between;
+    gap: 70px;
 }
 .image7 {
-    width: 490.42px;
-    height: 587.62px;
+    width: 460px;
+    height: 550px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);    
 }
 .block-5 {
@@ -550,4 +561,1310 @@ footer {
     justify-content: center;
     text-align: center;
     margin-bottom: 18px;
+}
+@media screen and (max-width: 1700px) { 
+    li {
+        font-size: 34px;
+    }
+    ul {
+        gap: 80px;
+    }
+    .image1 {
+        height: 471.85px;
+    }
+    .square {
+        text-align: center;
+        width: 450px;
+        height: 450px;
+    }
+    .square-txt{
+        padding-top: 200px;
+        margin-left: -50px;
+    }
+    .main-txt {
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+        padding-left: 250px;
+    }
+    .p1 {
+        width: 600px;
+        font-size: 27px;
+        line-height: 45px;
+    }
+    .main-button{
+        width: 200px;
+        height: 50px; 
+        font-size: 28px;
+        line-height: 50px;
+    }
+    .image2 {
+        width: 450px;
+        height: 550px;
+        margin-top: -20px;
+    }
+    .img-2 {
+        width: 100%;
+        height: 100%;
+    }
+    .square1{
+        margin-top: -300px;
+        margin-left: 555px;
+        width: 730px;
+        height: 730px;
+    }
+    .p2 {
+        width: 300px;
+        height: 80px;
+        font-size: 60px;
+        line-height: 80px;
+    }
+    .p3 {
+        margin-bottom: 72.5px;
+        margin-top: 79px;
+        width: 360px;
+        height: 350px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .main-2 {
+        margin-left: 145px;
+        margin-top: -230px;
+    }
+    .image3 {
+        width: 530px;
+        height: 720px;
+        margin-left: 210px;
+        margin-top: -50px;
+    }
+    .main-img2 {
+        width: 100%;
+        height: 100%;
+    }
+    .main-3 {
+        margin-top: 330px;
+        margin-left: 165px;
+    }
+    .square2{
+        margin: 10px;
+        margin-top: 50px;
+        width: 800px;
+        height: 800px;
+        z-index: 0;
+        font-size: 60px;
+        top: 5px;
+    }
+    .image4 {
+        width: 630px;
+        height: 450px;
+        top: 0px;
+        margin-left: 30px;
+        margin-top: -290px;
+    }
+    .title1 {
+        width: 570px;
+        height: 200px;
+        margin-left: -165px;
+        margin-top: -90px;
+        font-size: 26px;
+        line-height: 50px;
+    }
+    .p5 {
+        margin-top: 240px;
+        margin-left: 40px;
+        width: 370px;
+        height: 300px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .p4 {
+        margin-top: 80px;
+        margin-left: 50px;
+        width: 300px;
+        height: 80px;
+        font-size: 50px;
+    }
+    .main-4{
+        margin-top: 270px;
+        margin-left: 120px;
+    }
+    .image5 {
+        width: 910px;
+        height: 485px;
+        margin-left: -95px;
+    }
+    .square3 {
+        width: 720px;
+        height: 720px;
+        margin-top: -320px;
+        margin-left: 80px;
+    }
+    .block-text {
+        margin-top: 300px;
+        width: 370px;
+        height: 470px;
+    }
+    .service1{
+        width: 160px;
+        height: 40px;
+        font-size: 26px;
+        padding-left: 50px;
+        margin-top: 240px;;
+    }
+    .service2{
+        width: 180px;
+        height: 40px;
+        font-size: 26px;
+        padding-left: 50px;
+        padding-bottom: 10px;
+    }
+    .main-5 {
+        margin-top: 300px;
+        margin-left: 250px;
+    }
+    .image6 {
+        width: 370px;
+        height: 470px;
+    }
+    .polygon {
+        width: 650px;
+        height: 650px;
+        margin-top: -80px;
+        margin-left: -50px;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    .p6 {
+        font-size: 55px;
+        margin-top: -430px;
+        margin-left: 150px;
+    }
+    .p7 {
+        font-size: 30px;
+        width: 440px;
+        height: 30px;   
+        margin-top: -280px;
+        margin-left: 360px;
+        line-height: 40px;
+    }
+    .main-6 {
+        margin-top: 350px;
+        margin-left: 100px;
+    }
+    .image7 {
+        width: 410px;
+        height: 500px;
+    }
+    .block-5 {
+        margin-top: 280px;
+        margin-left: 100px;
+    }
+    .square4 {
+        width: 500px;
+        height: 500px;
+        margin-top: 30px;
+    }
+    .p8 {
+        font-size: 26px;
+        line-height: 38px;
+        width: 380px;
+        height: 100px;
+        padding-left: 65px;
+        padding-top: 200px;
+    }
+    .block-6 {
+        margin-left: 250px;
+        margin-top: -30px;
+    }
+    .p9 {
+        width: 360px;
+        height: 30px;
+        font-size: 35px;
+        line-height: 15px;
+    }
+    .sub {
+        margin-top: 40px;
+        width: 200px;
+        height: 50px;
+        font-size: 24px;
+        line-height: 14px; 
+    }
+    footer {
+        margin-top: 90px;
+    }
+    .p10 {
+        font-size: 35px;
+        line-height: 16px;
+    }
+    .blockfoot2 {
+        margin-top: 60px;
+        gap: 60px;
+        font-size: 35px;
+        line-height: 16px;
+    }
+    .blockfoot3 {
+        margin-top: 50px;
+        font-size: 35px;
+        line-height: 16px;
+    }
+
+}
+@media screen and (max-width: 1440px) { 
+    ul{
+        gap: 65px;
+        margin-top: 20px;
+    }
+    li {
+        font-size: 30px;
+    }
+    .image1 {
+        height: 441.85px;
+    }
+    .main-12 {
+        margin-top: -110px;
+    }
+    .square {
+        width: 400px;
+        height: 400px;
+    }
+    .square-txt{
+        padding-top: 180px;
+        margin-left: -50px;
+        font-size: 32px;
+    }
+    .main-txt {
+        padding-top: 65px;
+        padding-left: 240px;
+    }
+    .p1 {
+        width: 500px;
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .main-button{
+        width: 200px;
+        height: 50px; 
+        font-size: 28px;
+        line-height: 50px;
+    }
+    .image2 {
+        width: 450px;
+        height: 550px;
+        margin-top: -20px;
+    }
+    .img-2 {
+        width: 100%;
+        height: 100%;
+    }
+    .square1{
+        margin-top: -260px;
+        margin-left: 510px;
+        width: 650px;
+        height: 650px;
+    }
+    .p2 {
+        width: 300px;
+        height: 80px;
+        font-size: 60px;
+        line-height: 80px;
+    }
+    .p3 {
+        margin-bottom: 72.5px;
+        margin-top: 79px;
+        width: 360px;
+        height: 350px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .main-2 {
+        margin-left: 80px;
+        margin-top: -230px;
+    }
+    .image3 {
+        width: 465px;
+        height: 650px;
+        margin-left: 200px;
+        margin-top: -50px;
+    }
+    .main-img2 {
+        width: 100%;
+        height: 100%;
+    }
+    .main-3 {
+        margin-top: 290px;
+        margin-left: 165px;
+    }
+    .square2{
+        margin: 10px;
+        margin-top: 50px;
+        width: 720px;
+        height: 720px;
+        z-index: 0;
+        font-size: 60px;
+        top: 5px;
+    }
+    .image4 {
+        width: 630px;
+        height: 410px;
+        top: 0px;
+        margin-left: 30px;
+        margin-top: -270px;
+    }
+    .title1 {
+        width: 570px;
+        height: 200px;
+        margin-left: -165px;
+        margin-top: -90px;
+        font-size: 23px;
+        line-height: 45px;
+    }
+    .p5 {
+        margin-top: 220px;
+        margin-left: 10px;
+        width: 370px;
+        height: 300px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .p4 {
+        margin-top: 80px;
+        margin-left: 50px;
+        width: 300px;
+        height: 80px;
+        font-size: 50px;
+    }
+    .main-4{
+        margin-top: 270px;
+        margin-left: 120px;
+    }
+    .image5 {
+        width: 760px;
+        height: 400px;
+        margin-left: -115px;
+    }
+    .square3 {
+        width: 600px;
+        height: 600px;
+        margin-top: -265px;
+        margin-left: 20px;
+    }
+    .block-text {
+        margin-top: 255px;
+        width: 340px;
+        height: 440px;
+    }
+    .service1{
+        width: 160px;
+        height: 40px;
+        font-size: 26px;
+        padding-left: 50px;
+        margin-top: 240px;;
+    }
+    .service2{
+        width: 180px;
+        height: 40px;
+        font-size: 26px;
+        padding-left: 50px;
+        padding-bottom: 10px;
+    }
+    .main-5 {
+        margin-top: 300px;
+        margin-left: 250px;
+    }
+    .image6 {
+        width: 370px;
+        height: 470px;
+    }
+    .polygon {
+        width: 650px;
+        height: 650px;
+        margin-top: -80px;
+        margin-left: -50px;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    .p6 {
+        font-size: 55px;
+        margin-top: -430px;
+        margin-left: 150px;
+    }
+    .p7 {
+        font-size: 30px;
+        width: 440px;
+        height: 30px;   
+        margin-top: -280px;
+        margin-left: 360px;
+        line-height: 40px;
+    }
+    .main-6 {
+        margin-top: 350px;
+        margin-left: 80px;
+    }
+    .image7 {
+        width: 350px;
+        height: 440px;
+    }
+    .block-5 {
+        margin-top: 280px;
+        margin-left: 100px;
+    }
+    .square4 {
+        width: 500px;
+        height: 500px;
+        margin-top: 30px;
+    }
+    .p8 {
+        font-size: 26px;
+        line-height: 38px;
+        width: 380px;
+        height: 100px;
+        padding-left: 65px;
+        padding-top: 200px;
+    }
+    .block-6 {
+        margin-left: 250px;
+        margin-top: -30px;
+    }
+    .p9 {
+        width: 360px;
+        height: 30px;
+        font-size: 35px;
+        line-height: 15px;
+    }
+    .sub {
+        margin-top: 40px;
+        width: 200px;
+        height: 50px;
+        font-size: 24px;
+        line-height: 14px; 
+    }
+    footer {
+        margin-top: 90px;
+    }
+    .p10 {
+        font-size: 35px;
+        line-height: 16px;
+    }
+    .blockfoot2 {
+        margin-top: 60px;
+        gap: 60px;
+        font-size: 35px;
+        line-height: 16px;
+    }
+    .blockfoot3 {
+        margin-top: 50px;
+        font-size: 35px;
+        line-height: 16px;
+    }
+}
+    @media screen and (max-width: 1300px) { 
+        .logo {
+            font-size: 27px;
+        }
+        ul{
+            gap: 40px;
+        }
+        li {
+            font-size: 22px;
+        }
+        .image1 {
+            height: 330px;
+        }
+        .main-12 {
+            margin-top: -90px;
+        }
+        .square {
+            width: 300px;
+            height: 300px;
+        }
+        .square-txt{
+            padding-top: 130px;
+            margin-left: -40px;
+            font-size: 24px;
+        }
+        .main-txt {
+            padding-top: 50px;
+            padding-left: 150px;
+        }
+        .p1 {
+            width: 370px;
+            height: 160px;
+            font-size: 17px;
+            line-height: 31px;
+        }
+        .main-button{
+            width: 160px;
+            height: 35px; 
+            font-size: 20px;
+            line-height: 35px;
+        }
+        .image2 {
+            width: 330px;
+            height: 450px;
+            margin-top: -15px;
+            margin-left: -35px;
+        }
+        .img-2 {
+            width: 100%;
+            height: 100%;
+        }
+        .square1{
+            margin-top: -190px;
+            margin-left: 400px;
+            width: 500px;
+            height: 500px;
+        }
+        .p2 {
+            width: 200px;
+            height: 80px;
+            font-size: 50px;
+            line-height: 40px;
+        }
+        .p3 {
+            margin-bottom: 10px;
+            margin-top: 45px;
+            width: 360px;
+            height: 350px;
+            font-size: 16px;
+            line-height: 23px;
+        }
+        .main-2 {
+            margin-left: 100px;
+            margin-top: -200px;
+        }
+        .image3 {
+            width: 330px;
+            height: 470px;
+            margin-left: 55px;
+            margin-top: -30px;
+        }
+        .main-img2 {
+            width: 100%;
+            height: 100%;
+        }
+        .main-3 {
+            margin-top: 250px;
+            margin-left: 120px;
+        }
+        .square2 {
+            margin: 10px;
+            margin-top: 50px;
+            width: 550px;
+            height: 550px;
+            z-index: 0;
+            font-size: 50px;
+            top: 5px;
+        }
+        .image4 {
+            width: 550px;
+            height: 350px;
+            top: 0px;
+            margin-left: 30px;
+            margin-top: -200px;
+        }
+        .title1 {
+            width: 410px;
+            height: 145px;
+            margin-left: -190px;
+            margin-top: -90px;
+            font-size: 19px;
+            line-height: 34px;
+        }
+        .p5 {
+            margin-top: 150px;
+            margin-left: 1px;
+            width: 260px;
+            height: 220px;
+            font-size: 12px;
+            line-height: 19px;
+        }
+        .p4 {
+            margin-top: 80px;
+            margin-left: 1px;
+            width: 160px;
+            height: 80px;
+            font-size: 40px;
+        }
+        .main-4{
+            margin-top: 270px;
+            margin-left: 120px;
+        }
+        .image5 {
+            width: 700px;
+            height: 345px;
+            margin-left: -115px;
+        }
+        .square3 {
+            width: 500px;
+            height: 500px;
+            margin-top: -230px;
+            margin-left: 20px;
+        }
+        .block-text {
+            margin-top: 255px;
+            width: 240px;
+            height: 330px;
+        }
+        .service1{
+            width: 160px;
+            height: 40px;
+            font-size: 20px;
+            padding-left: 30px;
+            margin-top: 170px;;
+        }
+        .service2{
+            width: 180px;
+            height: 40px;
+            font-size: 20px;
+            padding-left: 30px;
+            padding-bottom: 10px;
+        }
+        .main-5 {
+            margin-top: 300px;
+            margin-left: 200px;
+        }
+        .image6 {
+            width: 340px;
+            height: 430px;
+        }
+        .polygon {
+            width: 600px;
+            height: 600px;
+            margin-top: -80px;
+            margin-left: -50px;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        .p6 {
+            font-size: 50px;
+            margin-top: -420px;
+            margin-left: 150px;
+        }
+        .p7 {
+            font-size: 25px;
+            width: 350px;
+            height: 30px;   
+            margin-top: -260px;
+            margin-left: 360px;
+            line-height: 40px;
+        }
+        .main-6 {
+            margin-top: 350px;
+            margin-left: 80px;
+        }
+        .block-4 {
+            gap: 50px;
+        }
+        .image7 {
+            width: 300px;
+            height: 380px;
+        }
+        .block-5 {
+            margin-top: 250px;
+            margin-left: 20px;
+        }
+        .square4 {
+            width: 400px;
+            height: 400px;
+            margin-top: 30px;
+        }
+        .p8 {
+            font-size: 22px;
+            line-height: 35px;
+            width: 315px;
+            height: 100px;
+            padding-left: 35px;
+            padding-right: 20px;
+            padding-top: 170px;
+        }
+        .block-6 {
+            margin-left: 170px;
+            margin-top: -30px;
+        }
+        .p9 {
+            width: 360px;
+            height: 30px;
+            font-size: 30px;
+            line-height: 15px;
+        }
+        .sub {
+            margin-top: 40px;
+            width: 170px;
+            height: 40px;
+            font-size: 20px;
+            line-height: 14px; 
+        }
+        footer {
+            margin-top: 80px;
+        }
+        .p10 {
+            font-size: 30px;
+            line-height: 16px;
+        }
+        .blockfoot2 {
+            margin-top: 60px;
+            gap: 50px;
+            font-size: 30px;
+            line-height: 16px;
+        }
+        .blockfoot3 {
+            margin-top: 50px;
+            font-size: 30px;
+            line-height: 16px;
+        }
+}
+@media screen and (max-width: 1000px) { 
+    .logo-img {
+        width: 60px;
+    }
+    .logo {
+        font-size: 23px;
+    }
+    ul{
+        gap: 20px;
+    }
+    li {
+        font-size: 14px;
+    }
+    .image1 {
+        height: 280px;
+    }
+    .main-12 {
+        margin-top: -90px;
+    }
+    .square {
+        width: 200px;
+        height: 200px;
+    }
+    .square-txt{
+        padding-top: 80px;
+        margin-left: -30px;
+        font-size: 17px;
+    }
+    .main-txt {
+        padding-top: 50px;
+        padding-left: 85px;
+    }
+    .p1 {
+        width: 305px;
+        height: 120px;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .main-button{
+        width: 120px;
+        height: 28px; 
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .image2 {
+        width: 230px;
+        height: 300px;
+        margin-top: -75px;
+        margin-left: -60px;
+    }
+    .img-2 {
+        width: 100%;
+        height: 100%;
+    }
+    .square1{
+        margin-top: -100px;
+        margin-left: 280px;
+        width: 400px;
+        height: 400px;
+    }
+    .p2 {
+        width: 160px;
+        height: 90px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .p3 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 260px;
+        height: 350px;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .main-2 {
+        margin-left: 40px;
+        margin-top: -160px;
+    }
+    .image3 {
+        width: 300px;
+        height: 420px;
+        margin-left: 55px;
+        margin-top: -30px;
+    }
+    .main-img2 {
+        width: 100%;
+        height: 100%;
+    }
+    .main-3 {
+        margin-top: 150px;
+        margin-left: 100px;
+    }
+    .square2 {
+        margin: 10px;
+        margin-top: 50px;
+        width: 400px;
+        height: 400px;
+        z-index: 0;
+        font-size: 40px;
+        top: 5px;
+    }
+    .image4 {
+        width: 420px;
+        height: 250px;
+        top: 0px;
+        margin-left: 5px;
+        margin-top: -150px;
+    }
+    .text_2{
+        margin: 20px;
+    }
+    .title1 {
+        width: 310px;
+        height: 145px;
+        margin-left: -140px;
+        margin-top: -60px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .p5 {
+        margin-top: 115px;
+        margin-left: 1px;
+        width: 222px;
+        height: 220px;
+        font-size: 11px;
+        line-height: 17px;
+    }
+    .p4 {
+        margin-top: 10px;
+        margin-left: 1px;
+        width: 160px;
+        height: 80px;
+        font-size: 30px;
+    }
+    .main-4{
+        margin-top: 200px;
+        margin-left: 50px;
+    }
+    .image5 {
+        width: 560px;
+        height: 300px;
+        margin-left: -50px;
+    }
+    .square3 {
+        width: 400px;
+        height: 400px;
+        margin-top: -187px;
+        margin-left: 20px;
+    }
+    .block-text {
+        margin-top: 210px;
+        width: 200px;
+        height: 300px;
+    }
+    .service1{
+        width: 160px;
+        height: 40px;
+        font-size: 20px;
+        padding-left: 30px;
+        margin-top: 170px;;
+    }
+    .service2{
+        width: 180px;
+        height: 40px;
+        font-size: 20px;
+        padding-left: 30px;
+        padding-bottom: 10px;
+    }
+    .main-5 {
+        margin-top: 250px;
+        margin-left: 100px;
+    }
+    .image6 {
+        width: 280px;
+        height: 380px;
+    }
+    .polygon {
+        width: 450px;
+        height: 450px;
+        margin-top: -55px;
+        margin-left: -25px;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    .p6 {
+        font-size: 40px;
+        margin-top: -330px;
+        margin-left: 100px;
+    }
+    .p7 {
+        font-size: 20px;
+        width: 275px;
+        height: 30px;   
+        margin-top: -200px;
+        margin-left: 275px;
+        line-height: 25px;
+    }
+    .main-6 {
+        margin-top: 300px;
+        margin-left: 50px;
+    }
+    .block-4 {
+        gap: 40px;
+    }
+    .image7 {
+        width: 200px;
+        height: 280px;
+    }
+    .block-5 {
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+    .square4 {
+        width: 320px;
+        height: 320px;
+        margin-top: 30px;
+    }
+    .p8 {
+        font-size: 17px;
+        line-height: 30px;
+        width: 265px;
+        height: 100px;
+        padding-left: 25px;
+        padding-right: 20px;
+        padding-top: 130px;
+    }
+    .block-6 {
+        margin-left: 95px;
+        margin-top: -30px;
+    }
+    .p9 {
+        width: 250px;
+        height: 30px;
+        font-size: 23px;
+        line-height: 15px;
+    }
+    .sub {
+        margin-top: 30px;
+        width: 120px;
+        height: 30px;
+        font-size: 15px;
+        line-height: 13px; 
+    }
+    footer {
+        margin-top: 60px;
+    }
+    .p10 {
+        font-size: 25px;
+        line-height: 16px;
+    }
+    .blockfoot2 {
+        margin-top: 60px;
+        gap: 40px;
+        font-size: 25px;
+        line-height: 16px;
+    }
+    .blockfoot3 {
+        margin-top: 50px;
+        font-size: 25px;
+        line-height: 16px;
+    }
+}
+@media screen and (max-width: 768px) { 
+    .wrapper {
+        width: 768px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    header {
+        width: 750px;
+        height: 70px;
+        margin-left: 10px;
+    }
+    .logo{
+        font-size: 17px;
+    }
+    .logo-img {
+        width: 45px;
+        height: 45px;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    span {
+        margin-left: 15px;
+        font-size: 40px;
+    }
+    ul{
+        gap: 35px;
+        margin-top: 10px;
+    }
+    li {
+        font-size: 14px;
+    }
+    .image1 {
+        width: 750px;
+        height: 250px;
+        margin-top: 19px;
+        margin-left: 10px;
+    }
+    .main-12 {
+        display: block;
+        margin-top: 0;
+        margin-left: 50px;
+    }
+    .square{
+        width: 210px;
+        height: 210px;
+        margin-top: -170px;
+        transform: rotate(45deg);
+    }
+    .square-txt{
+        font-size: 14px;
+        padding-top: 80px;
+        padding-right: 45px;
+        margin-left: -20px;
+        transform: rotate(-45deg);
+    }
+    .main-txt {
+        padding-left: 140px;
+        margin-top: -120px;
+        padding-top: 173px;
+    }
+    .p1{
+        width: 340px;
+        height: 105px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .main-button{
+        width: 140px;
+        height: 25px; 
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .image2 {
+        width: 250px;
+        height: 300px;
+        margin-left: -150px;
+        margin-top: -35px;
+    }
+    .img-2 {
+        width: 100%;
+        height: 100%;
+    }
+    .square1{
+        margin-top: -165px;
+        margin-left: 290px;
+        width: 370px;
+        height: 370px;
+    }
+    .main-2 {
+        margin-left: 80px;
+        margin-top: -140px;
+    }
+    .p2 {
+        width: 110px;
+        height: 80px;
+        font-size: 27px;
+        line-height: 10px;
+        padding-left: 15px;
+    }
+    .p3 {
+        width: 300.97px;
+        height: 440px;
+        font-size: 11px;
+        line-height: 13px;
+        margin-top: -120px;
+        margin-bottom: -100px;
+    }
+    .image3 {
+        width: 250px;
+        height: 360px;
+        margin-left: 0;
+        margin-top: -15px;
+    }
+    .main-3 {
+        margin-top: 100px;
+        margin-left: 80px;
+    }
+    .square2{
+        margin: 10px;
+        margin-top: 50px;
+        width: 400px;
+        height: 400px;
+        z-index: 0;
+        font-size: 33px;
+        top: 5px;
+    }
+    .image4 {
+        width: 330px;
+        height: 220px;
+        top:0px;
+        margin-left: 40px;
+        margin-top: -120px;
+    }
+    .title1 {
+        width: 325px;
+        height: 100px;
+        margin-left: -125px;
+        margin-top: -40px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .p4 {
+        margin-top: 20px;
+        margin-left: 1px;
+        width: 300px;
+        height: 80px;
+        font-size: 30px;
+    }
+    .p5 {
+        margin-top: 40px;
+        width: 220px;
+        height: 300px;
+        font-size: 9px;
+        line-height: 13px;
+        margin-left: 1px;
+    }
+    .main-4{
+        margin-top: 70px;
+        margin-left: 60px;
+    }
+    .image5 {
+        width: 470px;
+        height: 235px;
+        margin-left: -45px;
+    }
+    .square3{
+        width: 360px;
+        height: 360px;
+        margin-top: -150px;
+        margin-left: 15px;
+    }
+    .block-text {
+        margin-top: 180px;
+        width: 220px;
+        height: 260px;
+    }
+    .service1{
+        width: 90px;
+        height: 20px;
+        font-size: 14px;
+        padding-left: 30px;
+        margin-top: 100px;;
+    }
+    .service2{
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+        padding-left: 30px;
+        padding-bottom: 5px;
+    }
+    .main-5 {
+        margin-top: 180px;
+        margin-left: 100px;
+    }
+    
+    .image6 {
+        width: 250px;
+        height: 300px;
+    }
+    .polygon {
+        width: 360px;
+        height: 340px;
+        margin-top: -50px;
+        margin-left: 1px;
+    }
+    .p6 {
+        font-size: 27px;
+        margin-top: -250px;
+        margin-left: 90px;
+    }
+    .p7 {
+        font-size: 14px;
+        width: 200px;
+        height: 30px;   
+        margin-top: -140px;
+        margin-left: 235px;
+        line-height: 20px;
+    }
+    .image7 {
+        width: 200px;
+        height: 260px;   
+    }
+    .main-6 {
+        margin-top: 240px;
+        margin-left: 50px;
+    }
+    .block-4 {
+        gap: 40px;
+    }
+    .block-5 {
+        margin-top: 140px;
+        margin-left: 10px;
+    }
+    .square4 {
+        width: 220px;
+        height: 220px;
+        margin-top: 30px;
+    }
+    .p8 {
+        font-size: 14px;
+        line-height: 15px;
+        width: 220px;
+        height: 100px;
+        padding-left: 1px;
+        padding-top: 70px;
+    }
+    .block-6 {
+        margin-left: 150px;
+        margin-top: -30px;
+    }
+    .p9 {
+        width: 220px;
+        height: 30px;
+        font-size: 20px;
+        line-height: 15px;
+    }
+    .sub {
+        margin-top: 30px;
+        width: 140px;
+        height: 33px;
+        font-size: 14px;
+        line-height: 14px; 
+    }
+    footer {
+        margin-top: 60px;
+    }
+    .p10 {
+        font-size: 20px;
+        line-height: 16px;
+    }
+    .blockfoot2 {
+        margin-top: 31px;
+        gap: 40px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .blockfoot3 {
+        margin-top: 31px;
+        font-size: 16px;
+        line-height: 16px;
+    }
 }
